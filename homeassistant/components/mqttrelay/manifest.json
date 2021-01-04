@@ -1,0 +1,10 @@
+{
+  "domain": "mqttrelay",
+  "name": "Custom Mqtt Relay",
+  "documentation": "https://gitlab.com/stefanfellinger/homeassistant-mqttrelay",
+  "issue_tracker": "https://gitlab.com/stefanfellinger/homeassistant-mqttrelay/-/issues",
+  "dependencies": ["mqtt"],
+  "after_dependencies": ["http"],
+  "codeowners": ["@stefan"],
+  "config_flow": true
+}
